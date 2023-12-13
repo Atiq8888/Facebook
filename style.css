@@ -1,0 +1,185 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+
+.main-area {
+    display: flex;
+    justify-content: space-around;
+    padding: 100px 100px;
+
+    background-color: #edf0f5;
+
+}
+
+.image-area {
+    height: 100px;
+    width: 450px;
+    margin-top: 100px;
+
+
+}
+
+.image-area img {
+    width: 280px;
+    margin-left: -20px;
+    margin-bottom: -30px;
+}
+
+
+
+
+.input-area {
+    height: 350px;
+    width: 350px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+    text-align: center;
+    padding: 10px;
+    background-color: white;
+
+
+
+}
+
+.input-area input,
+a {
+    display: block;
+
+
+}
+
+.input-area input {
+    height: 50px;
+    margin-top: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: medium;
+    font-weight: bold;
+    padding-left: 20px;
+    width: 330px;
+
+}
+
+
+.input-area button {
+    width: 350px;
+    height: 50px;
+    margin-top: 10px;
+    background-color: #166fe5;
+    color: white;
+    font-size: larger;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 5px;
+    border: none;
+
+}
+
+.input-area a {
+    margin-top: 10px;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.input-area a:hover {
+    text-decoration: underline;
+}
+
+
+.new-account button {
+    height: 50px;
+    width: 200px;
+    font-size: small;
+    margin-top: 30px;
+    background-color: green;
+    border: none;
+
+}
+
+.signup-area span {
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.signup-area span:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+
+
+/* Footer Area. */
+
+
+.footer-top {
+    margin-left: 120px;
+}
+
+.footer-top ul {
+    list-style: none;
+    display: flex;
+
+
+}
+
+.footer-top ul a {
+    padding-right: 10px;
+    text-decoration: none;
+    font-size: small;
+    color: rgb(23, 22, 22);
+
+}
+
+.footer-top ul a:hover {
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+.footer-bottom {
+    margin-left: 120px;
+    width: 1000px;
+}
+
+.footer-bottom ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+
+
+}
+
+.footer-bottom ul a {
+    padding-right: 16px;
+    text-decoration: none;
+    font-size: small;
+    color: rgb(23, 22, 22);
+
+}
+
+.footer-bottom ul a:hover {
+    text-decoration: underline;
+}
+
+footer hr {
+    width: 900px;
+    margin-right: 200px;
+}
+
+
+
+
+.meta {
+    margin-left: 160px;
+}
+
+
+@media (max-width:1200px) {}
